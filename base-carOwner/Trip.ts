@@ -1,4 +1,6 @@
 import {BaseModel} from '../BaseModel';
+import { Car } from './Car';
+import { Staff } from './Staff';
 export class Trip extends BaseModel {
     localStart?:string;
     localEnd ?:string;
@@ -7,6 +9,9 @@ export class Trip extends BaseModel {
     startAt ?: Date ;
     endAt ?: Date;
     driverId ?: String;
-    staffId ?: string[]
-    
+    driver ?: Staff;
+    staffId ?: string[];
+    staff ?: Staff;
+    carId ?: string;
+    car ?: Car;
 }
