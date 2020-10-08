@@ -8,4 +8,5 @@ export class Car extends BaseModel {
     entryAt ?: Date;
     origin ?: string;
     statusCar ?: string;
+    description ?: string;
 }

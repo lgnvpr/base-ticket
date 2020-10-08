@@ -9,6 +9,7 @@ export class Customer extends BaseModel{
     public sex?: Sex;
     public avt ?: string;
     public imgThumbnailUrl ?: string[]
+    public description ?: string[]
 
 }
 
