@@ -10,3 +10,8 @@ export class Car extends BaseModel {
     statusCar ?: string;
     description ?: string;
 }
+
+export enum statusCar {
+    using = "Using",
+    fixing = "Fixing"
+}
