@@ -11,7 +11,7 @@ export class Trip extends BaseModel {
     driverId ?: String;
     driver ?: Staff;
     staffId ?: string[];
-    staff ?: Staff;
+    staff ?: Staff[];
     carId ?: string;
     car ?: Car;
 }
