@@ -1,7 +1,7 @@
 import { BaseModel } from "../BaseModel";
-import { Staff } from "./Staff";
-import { Route } from "./Route";
 import { Car } from "./Car";
+import { Route } from "./Route";
+import { Staff } from "./Staff";
 
 export class Trip extends BaseModel {
     timeStart ?: Date;
