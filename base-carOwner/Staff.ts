@@ -9,5 +9,5 @@ export class Staff extends BaseModel{
     public avt ?: string;
     public position ?: PostionStaff;
     public phoneNumer ?: string;
-    public sex ?: string;
+    public sex?: string;
 }
