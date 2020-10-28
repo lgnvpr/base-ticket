@@ -17,6 +17,8 @@ export class Ticket extends BaseModel {
     trip ?: Trip;
     statusTicket  ?:string;
     statusCheckTicket ?: string;
-    itemInclude ?: string[];
+    itemInclude?: string[];
+    localPickup?: string;
+    localDrop ?: string;
 
 }
