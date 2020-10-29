@@ -1,8 +1,9 @@
 
+
 export class Statistical{
     charTicket?: CharDay[];
     charRevenue?: CharDay[];
-    totalCustomer: number;
+    totalCustomer?: number;
     totalRevenue?: number;
     totalTrip?: number;
     totalTicket ?: number;
